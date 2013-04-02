@@ -1,0 +1,312 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@font-face {
+    font-family: 'myra_4f_capsbold';
+    src: url('/font/myra/myra_4f_caps_bold-webfont.eot');
+    src: url('/font/myra/myra_4f_caps_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/font/myra/myra_4f_caps_bold-webfont.woff') format('woff'),
+         url('/font/myra/myra_4f_caps_bold-webfont.ttf') format('truetype'),
+         url('/font/myra/myra_4f_caps_bold-webfont.svg#myra_4f_capsbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'myra_4f_capslight';
+    src: url('/font/myra/myra_4f_caps_light-webfont.eot');
+    src: url('/font/myra/myra_4f_caps_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/font/myra/myra_4f_caps_light-webfont.woff') format('woff'),
+         url('/font/myra/myra_4f_caps_light-webfont.ttf') format('truetype'),
+         url('/font/myra/myra_4f_caps_light-webfont.svg#myra_4f_capslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'myra_4f_capsregular';
+    src: url('/font/myra/myra_4f_caps_regular-webfont.eot');
+    src: url('/font/myra/myra_4f_caps_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/font/myra/myra_4f_caps_regular-webfont.woff') format('woff'),
+         url('/font/myra/myra_4f_caps_regular-webfont.ttf') format('truetype'),
+         url('/font/myra/myra_4f_caps_regular-webfont.svg#myra_4f_capsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ubuntubold';
+    src: url('/font/ubuntu/ubuntu-b-webfont.eot');
+    src: url('/font/ubuntu/ubuntu-b-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/font/ubuntu/ubuntu-b-webfont.woff') format('woff'),
+         url('/font/ubuntu/ubuntu-b-webfont.ttf') format('truetype'),
+         url('/font/ubuntu/ubuntu-b-webfont.svg#ubuntubold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ubuntubold_italic';
+    src: url('/font/ubuntu/ubuntu-bi-webfont.eot');
+    src: url('/font/ubuntu/ubuntu-bi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/font/ubuntu/ubuntu-bi-webfont.woff') format('woff'),
+         url('/font/ubuntu/ubuntu-bi-webfont.ttf') format('truetype'),
+         url('/font/ubuntu/ubuntu-bi-webfont.svg#ubuntubold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ubuntu_condensedregular';
+    src: url('/font/ubuntu/ubuntu-c-webfont.eot');
+    src: url('/font/ubuntu/ubuntu-c-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/font/ubuntu/ubuntu-c-webfont.woff') format('woff'),
+         url('/font/ubuntu/ubuntu-c-webfont.ttf') format('truetype'),
+         url('/font/ubuntu/ubuntu-c-webfont.svg#ubuntu_condensedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ubuntulight';
+    src: url('/font/ubuntu/ubuntu-l-webfont.eot');
+    src: url('/font/ubuntu/ubuntu-l-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/font/ubuntu/ubuntu-l-webfont.woff') format('woff'),
+         url('/font/ubuntu/ubuntu-l-webfont.ttf') format('truetype'),
+         url('/font/ubuntu/ubuntu-l-webfont.svg#ubuntulight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ubuntulight_italic';
+    src: url('/font/ubuntu/ubuntu-li-webfont.eot');
+    src: url('/font/ubuntu/ubuntu-li-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/font/ubuntu/ubuntu-li-webfont.woff') format('woff'),
+         url('/font/ubuntu/ubuntu-li-webfont.ttf') format('truetype'),
+         url('/font/ubuntu/ubuntu-li-webfont.svg#ubuntulight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ubuntumedium';
+    src: url('/font/ubuntu/ubuntu-m-webfont.eot');
+    src: url('/font/ubuntu/ubuntu-m-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/font/ubuntu/ubuntu-m-webfont.woff') format('woff'),
+         url('/font/ubuntu/ubuntu-m-webfont.ttf') format('truetype'),
+         url('/font/ubuntu/ubuntu-m-webfont.svg#ubuntumedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ubuntumedium_italic';
+    src: url('/font/ubuntu/ubuntu-mi-webfont.eot');
+    src: url('/font/ubuntu/ubuntu-mi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/font/ubuntu/ubuntu-mi-webfont.woff') format('woff'),
+         url('/font/ubuntu/ubuntu-mi-webfont.ttf') format('truetype'),
+         url('/font/ubuntu/ubuntu-mi-webfont.svg#ubuntumedium_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ubuntu_monobold';
+    src: url('/font/ubuntu/ubuntumono-b-webfont.eot');
+    src: url('/font/ubuntu/ubuntumono-b-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/font/ubuntu/ubuntumono-b-webfont.woff') format('woff'),
+         url('/font/ubuntu/ubuntumono-b-webfont.ttf') format('truetype'),
+         url('/font/ubuntu/ubuntumono-b-webfont.svg#ubuntu_monobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ubuntu_monobold_italic';
+    src: url('/font/ubuntu/ubuntumono-bi-webfont.eot');
+    src: url('/font/ubuntu/ubuntumono-bi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/font/ubuntu/ubuntumono-bi-webfont.woff') format('woff'),
+         url('/font/ubuntu/ubuntumono-bi-webfont.ttf') format('truetype'),
+         url('/font/ubuntu/ubuntumono-bi-webfont.svg#ubuntu_monobold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ubuntu_monoregular';
+    src: url('/font/ubuntu/ubuntumono-r-webfont.eot');
+    src: url('/font/ubuntu/ubuntumono-r-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/font/ubuntu/ubuntumono-r-webfont.woff') format('woff'),
+         url('/font/ubuntu/ubuntumono-r-webfont.ttf') format('truetype'),
+         url('/font/ubuntu/ubuntumono-r-webfont.svg#ubuntu_monoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ubuntu_monoitalic';
+    src: url('/font/ubuntu/ubuntumono-ri-webfont.eot');
+    src: url('/font/ubuntu/ubuntumono-ri-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/font/ubuntu/ubuntumono-ri-webfont.woff') format('woff'),
+         url('/font/ubuntu/ubuntumono-ri-webfont.ttf') format('truetype'),
+         url('/font/ubuntu/ubuntumono-ri-webfont.svg#ubuntu_monoitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ubunturegular';
+    src: url('/font/ubuntu/ubuntu-r-webfont.eot');
+    src: url('/font/ubuntu/ubuntu-r-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/font/ubuntu/ubuntu-r-webfont.woff') format('woff'),
+         url('/font/ubuntu/ubuntu-r-webfont.ttf') format('truetype'),
+         url('/font/ubuntu/ubuntu-r-webfont.svg#ubunturegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ubuntuitalic';
+    src: url('/font/ubuntu/ubuntu-ri-webfont.eot');
+    src: url('/font/ubuntu/ubuntu-ri-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/font/ubuntu/ubuntu-ri-webfont.woff') format('woff'),
+         url('/font/ubuntu/ubuntu-ri-webfont.ttf') format('truetype'),
+         url('/font/ubuntu/ubuntu-ri-webfont.svg#ubuntuitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1, h2, h3, h4, th, .brand {
+	font-family: 'myra_4f_capsbold' !important;
+	color: #555555;
+}
+
+#overview h1 {
+	color: #ffffff;
+}
+
+body {
+	padding-top: 0px;
+	font-family: 'ubunturegular';
+	color: #555555;
+}
+
+footer p, footer a {
+	color: #bbbbbb;
+}
+
+.message {
+	color: #cccccc !important;
+	margin: 0 auto;
+	padding-top: 100px;
+	text-align: center;
+	vertical-align: center;
+	height: 200px;
+}
+
+.jumbotron {
+  position: relative;
+  padding: 40px 0;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+  background: #020031; /* Old browsers */
+  background: -moz-linear-gradient(45deg,  #643b0f 50%, #b7521e 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(50%,#643b0f), color-stop(100%,#b7521e)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(45deg,  #643b0f 50%,#b7521e 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(45deg,  #643b0f 50%,#b7521e 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(45deg,  #643b0f 50%,#b7521e 100%); /* IE10+ */
+  background: linear-gradient(45deg,  #643b0f 50%,#b7521e 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#643b0f', endColorstr='#b7521e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+     -moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+          box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+}
+
+.jumbotron h1 {
+  font-size: 80px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+
+.jumbotron p {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.25;
+  margin-bottom: 30px;
+}
+
+/* Link styles (used on .masthead-links as well) */
+.jumbotron a {
+  color: #fff;
+  color: rgba(255,255,255,.5);
+  -webkit-transition: all .2s ease-in-out;
+     -moz-transition: all .2s ease-in-out;
+          transition: all .2s ease-in-out;
+}
+
+.jumbotron a:hover {
+  color: #fff;
+  text-shadow: 0 0 10px rgba(255,255,255,.25);
+}
+
+
+/* Pattern overlay
+------------------------- */
+.jumbotron .container {
+  position: relative;
+  z-index: 2;
+}
+
+.jumbotron:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url(../img/wood_pattern_trans.png) repeat center center;
+  opacity: .4;
+}
+
+.nav-list>.active>a, .nav-list>.active>a:hover, .nav-list>.active>a:focus {
+	background-color: #555555;
+}
+
+a {
+	color: #b7521e;
+}
+
+a:hover, a:focus {
+	color: #555555;
+}
+
+
+
+
+
+
+
+
